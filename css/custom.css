@@ -249,8 +249,8 @@ a:hover {
   color: black;
   background-color: #fae0c7;
   font-weight: bold;
-  font-size: 24px;
-  padding: 16px;
+  font-size: 18px;
+  padding: 14px;
 }
 .prices-area {
   background: url("../assets/img/tables-big2.png") 50% 50%;
@@ -455,7 +455,7 @@ blockquote {
 
 /* Home Page Carousel */
 header.carousel {
-  height: 75%;
+  height: 80%;
 }
 header.carousel .item,
 header.carousel .item.active,
@@ -465,7 +465,7 @@ header.carousel .carousel-inner {
 header.carousel .fill {
   width: 100%;
   height: 100%;
-  object-fit: none;
+  /* object-fit: none; */
 }
 .carousel-caption {
   bottom: 10%;
@@ -563,7 +563,7 @@ footer {
   }
   .btn-contact {
     width: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .page-presentation {
     display: flex;
